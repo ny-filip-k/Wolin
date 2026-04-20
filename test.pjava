@@ -1,0 +1,27 @@
+publiczny klasa Test {
+
+    publiczny statyczny pustka main() {
+
+        liczba_całkowita a = 10;
+        liczba_całkowita b = 20;
+
+        jeśli (a < b) {
+            wypluj("a jest mniejsze od b");
+        } w_przeciwnym_razie {
+            wypluj("a nie jest mniejsze od b");
+        }
+
+        poprzez (liczba_całkowita i = 0; i < 5; i = i + 1) {
+            wypluj("i = " + i);
+        }
+
+        spróbuj {
+            liczba_całkowita wynik = a / 0;
+            wypluj("wynik = " + wynik);
+        } złap {
+            wypluj("błąd");
+        }
+
+        zwróć;
+    }
+}
